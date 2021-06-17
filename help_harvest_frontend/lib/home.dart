@@ -1,4 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:help_harvest_frontend/diet.dart';
+import 'package:help_harvest_frontend/donation.dart';
+import 'package:help_harvest_frontend/machinery.dart';
+import 'package:help_harvest_frontend/pestandweedcontrol.dart';
+import 'package:help_harvest_frontend/production.dart';
+import 'package:help_harvest_frontend/sellon.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -70,126 +76,170 @@ class MainContent extends StatelessWidget {
                   new Expanded(
                       child: Padding(
                     padding: const EdgeInsets.only(right: 15.0),
-                    child: new Container(
-                      height: 100.0,
-                      decoration: new BoxDecoration(
-                          borderRadius: new BorderRadius.circular(5.0),
-                          color: Color(0xFF18d134)),
-                      child: new Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: <Widget>[
-                          new Icon(
-                            Icons.drive_eta,
-                            color: Colors.white,
-                          ),
-                          new Text("PRODUCTION",
-                              style: new TextStyle(color: Colors.white))
-                        ],
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Production()));
+                      },
+                      child: new Container(
+                        height: 100.0,
+                        decoration: new BoxDecoration(
+                            borderRadius: new BorderRadius.circular(5.0),
+                            color: Color(0xFF18d134)),
+                        child: new Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: <Widget>[
+                            new Icon(
+                              Icons.drive_eta,
+                              color: Colors.white,
+                            ),
+                            new Text("production",
+                                style: new TextStyle(color: Colors.white))
+                          ],
+                        ),
                       ),
                     ),
                   )),
                   new Expanded(
                       child: Padding(
-                    padding: const EdgeInsets.only(right: 15.0),
-                    child: new Container(
-                      height: 100.0,
-                      decoration: new BoxDecoration(
-                          borderRadius: new BorderRadius.circular(5.0),
-                          color: Color(0xFF18d134)),
-                      child: new Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: <Widget>[
-                          new Icon(
-                            Icons.drive_eta,
-                            color: Colors.white,
-                          ),
-                          new Text("PEST AND WEED CONTROL",
-                              style: new TextStyle(color: Colors.white))
-                        ],
+                    padding: const EdgeInsets.only(right: 10.0),
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => pestandweedcontrol()));
+                      },
+                      child: new Container(
+                        height: 100.0,
+                        decoration: new BoxDecoration(
+                            borderRadius: new BorderRadius.circular(5.0),
+                            color: Color(0xFF18d134)),
+                        child: new Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: <Widget>[
+                            new Icon(
+                              Icons.drive_eta,
+                              color: Colors.white,
+                            ),
+                            new Text("pest and weed control",
+                                style: new TextStyle(color: Colors.white))
+                          ],
+                        ),
                       ),
                     ),
                   )),
                   new Expanded(
                       child: Padding(
-                    padding: const EdgeInsets.only(right: 15.0),
-                    child: new Container(
-                      height: 100.0,
-                      decoration: new BoxDecoration(
-                          borderRadius: new BorderRadius.circular(5.0),
-                          color: Color(0xFF18d134)),
-                      child: new Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: <Widget>[
-                          new Icon(
-                            Icons.drive_eta,
-                            color: Colors.white,
-                          ),
-                          new Text("MACHINERY",
-                              style: new TextStyle(color: Colors.white))
-                        ],
+                    padding: const EdgeInsets.only(right: 10.0),
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context) => machinery()));
+                      },
+                      child: new Container(
+                        height: 100.0,
+                        decoration: new BoxDecoration(
+                            borderRadius: new BorderRadius.circular(5.0),
+                            color: Color(0xFF18d134)),
+                        child: new Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: <Widget>[
+                            new Icon(
+                              Icons.drive_eta,
+                              color: Colors.white,
+                            ),
+                            new Text("machinery",
+                                style: new TextStyle(color: Colors.white))
+                          ],
+                        ),
                       ),
                     ),
                   )),
                   new Expanded(
                       child: Padding(
-                    padding: const EdgeInsets.only(right: 15.0),
-                    child: new Container(
-                      height: 100.0,
-                      decoration: new BoxDecoration(
-                          borderRadius: new BorderRadius.circular(5.0),
-                          color: Color(0xFF18d134)),
-                      child: new Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: <Widget>[
-                          new Icon(
-                            Icons.drive_eta,
-                            color: Colors.white,
-                          ),
-                          new Text("SELL ON HELP HARVEST",
-                              style: new TextStyle(color: Colors.white))
-                        ],
+                    padding: const EdgeInsets.only(right: 10.0),
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context) => sellon()));
+                      },
+                      child: new Container(
+                        height: 100.0,
+                        decoration: new BoxDecoration(
+                            borderRadius: new BorderRadius.circular(5.0),
+                            color: Color(0xFF18d134)),
+                        child: new Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: <Widget>[
+                            new Icon(
+                              Icons.drive_eta,
+                              color: Colors.white,
+                            ),
+                            new Text("Sell on help harvest",
+                                style: new TextStyle(color: Colors.white))
+                          ],
+                        ),
                       ),
                     ),
                   )),
                   new Expanded(
                       child: Padding(
-                    padding: const EdgeInsets.only(right: 15.0),
-                    child: new Container(
-                      height: 100.0,
-                      decoration: new BoxDecoration(
-                          borderRadius: new BorderRadius.circular(5.0),
-                          color: Color(0xFF18d134)),
-                      child: new Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: <Widget>[
-                          new Icon(
-                            Icons.drive_eta,
-                            color: Colors.white,
-                          ),
-                          new Text("DIET",
-                              style: new TextStyle(color: Colors.white))
-                        ],
+                    padding: const EdgeInsets.only(right: 10.0),
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => diet()));
+                      },
+                      child: new Container(
+                        height: 100.0,
+                        decoration: new BoxDecoration(
+                            borderRadius: new BorderRadius.circular(5.0),
+                            color: Color(0xFF18d134)),
+                        child: new Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: <Widget>[
+                            new Icon(
+                              Icons.drive_eta,
+                              color: Colors.white,
+                            ),
+                            new Text("diet",
+                                style: new TextStyle(color: Colors.white))
+                          ],
+                        ),
                       ),
                     ),
                   )),
                   new Expanded(
                       child: Padding(
-                    padding: const EdgeInsets.only(right: 15.0),
-                    child: new Container(
-                      height: 100.0,
-                      decoration: new BoxDecoration(
-                          borderRadius: new BorderRadius.circular(5.0),
-                          color: Color(0xFF18d134)),
-                      child: new Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: <Widget>[
-                          new Icon(
-                            Icons.drive_eta,
-                            color: Colors.white,
-                          ),
-                          new Text("DONATION",
-                              style: new TextStyle(color: Colors.white))
-                        ],
+                    padding: const EdgeInsets.only(right: 10.0),
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => donation()));
+                      },
+                      child: new Container(
+                        height: 100.0,
+                        decoration: new BoxDecoration(
+                            borderRadius: new BorderRadius.circular(5.0),
+                            color: Color(0xFF18d134)),
+                        child: new Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: <Widget>[
+                            new Icon(
+                              Icons.drive_eta,
+                              color: Colors.white,
+                            ),
+                            new Text("donate",
+                                style: new TextStyle(color: Colors.white))
+                          ],
+                        ),
                       ),
                     ),
                   )),
