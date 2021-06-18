@@ -36,7 +36,7 @@ class LoginPage extends StatelessWidget {
               padding:
                   const EdgeInsets.symmetric(horizontal: 20.0, vertical: 0.0),
               child: new TextField(
-                decoration: new InputDecoration(labelText: 'Email'),
+                decoration: new InputDecoration(labelText: 'Phone number'),
               ),
             ),
             new SizedBox(
@@ -53,16 +53,16 @@ class LoginPage extends StatelessWidget {
             new SizedBox(
               height: 15.0,
             ),
-            Padding(
-              padding:
-                  const EdgeInsets.symmetric(horizontal: 20.0, vertical: 0.0),
-              child: new TextField(
-                decoration: new InputDecoration(labelText: 'Pincode'),
-              ),
-            ),
-            new SizedBox(
-              height: 15.0,
-            ),
+            // Padding(
+            //   padding:
+            //       const EdgeInsets.symmetric(horizontal: 20.0, vertical: 0.0),
+            //   child: new TextField(
+            //     decoration: new InputDecoration(labelText: 'Pincode'),
+            //   ),
+            // ),
+            // new SizedBox(
+            //   height: 15.0,
+            // ),
             new Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[

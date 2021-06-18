@@ -2,14 +2,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() =>
-    runApp(MaterialApp(debugShowCheckedModeBanner: false, home: diet()));
+    runApp(MaterialApp(debugShowCheckedModeBanner: false, home: mart()));
 
-class diet extends StatefulWidget {
+class mart extends StatefulWidget {
   @override
   _MartPageState createState() => _MartPageState();
 }
 
-class _MartPageState extends State<diet> {
+class _MartPageState extends State<mart> {
   final List<String> _listItem = [
     'images/diet.jpg',
     'images/diet.jpg',

@@ -24,7 +24,7 @@ class MyHomePage extends StatelessWidget {
     return new Scaffold(
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
             new Stack(
               alignment: Alignment.center,
@@ -43,7 +43,7 @@ class MyHomePage extends StatelessWidget {
               ],
             ),
             new Row(
-              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 Padding(
                   padding: const EdgeInsets.only(top: 8.0, bottom: 80.0),
