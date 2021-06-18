@@ -1,6 +1,6 @@
 # hackathon_ibm
-Submission or project name
-License Community Website
+# Submission or project name
+
 
 A basic GitHub repository example for new Call for Code projects and those that join the Call for Code with The Linux Foundation deployment initiative. Not all sections or files are required. You can make this as simple or as in-depth as you need. And don't forget to register for Call for Code 2021!
 
@@ -10,7 +10,7 @@ Read this in other languages: English, 한국어, português.
 
 Contents
 Submission or project name
-[I'm an inline-style link](www.google.com)
+[I'm an inline-style link]()
 Short description
 What's the problem?
 How can technology help?
