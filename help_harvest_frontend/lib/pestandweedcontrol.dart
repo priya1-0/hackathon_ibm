@@ -18,7 +18,8 @@ class pestandweedcontrol extends StatelessWidget {
               padding:
                   const EdgeInsets.symmetric(horizontal: 20.0, vertical: 0.0),
               child: new TextField(
-                decoration: new InputDecoration(labelText: 'Q1.'),
+                decoration: new InputDecoration(
+                    labelText: 'Q1. Duration of the pest on farm'),
               ),
             ),
             new SizedBox(
@@ -28,13 +29,14 @@ class pestandweedcontrol extends StatelessWidget {
               padding:
                   const EdgeInsets.symmetric(horizontal: 20.0, vertical: 0.0),
               child: new TextField(
-                decoration: new InputDecoration(labelText: 'Q2.'),
+                decoration:
+                    new InputDecoration(labelText: 'Q2. Please upload images'),
               ),
             ),
             new SizedBox(
               height: 15.0,
             ),
-            Expanded(
+            new Expanded(
               child: Padding(
                 padding: const EdgeInsets.only(
                     left: 50.0, right: 50.0, top: 20.0, bottom: 180.0),
@@ -45,6 +47,21 @@ class pestandweedcontrol extends StatelessWidget {
                         color: Color(0xFF18D191),
                         borderRadius: new BorderRadius.circular(9.0)),
                     child: new Text("Submit Your questions",
+                        style: new TextStyle(
+                            fontSize: 20.0, color: Colors.white))),
+              ),
+            ),
+            new Expanded(
+              child: Padding(
+                padding: const EdgeInsets.only(
+                    left: 50.0, right: 50.0, top: 20.0, bottom: 180.0),
+                child: new Container(
+                    alignment: Alignment.center,
+                    height: 20.0,
+                    decoration: new BoxDecoration(
+                        color: Color(0xFF18D191),
+                        borderRadius: new BorderRadius.circular(9.0)),
+                    child: new Text("Expert Advice",
                         style: new TextStyle(
                             fontSize: 20.0, color: Colors.white))),
               ),

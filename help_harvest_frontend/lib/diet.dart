@@ -15,10 +15,6 @@ class _MartPageState extends State<diet> {
     'images/diet.jpg',
     'images/diet.jpg',
     'images/diet.jpg',
-    'images/diet.jpg',
-    'images/diet.jpg',
-    'images/diet.jpg',
-    'images/diet.jpg',
   ];
 
   @override
@@ -51,11 +47,11 @@ class _MartPageState extends State<diet> {
             children: <Widget>[
               Container(
                 width: double.infinity,
-                height: 250,
+                height: 350,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
                     image: DecorationImage(
-                        image: AssetImage('images/diet.jpg'),
+                        image: AssetImage('images/wall.jpg'),
                         fit: BoxFit.cover)),
                 child: Container(
                   decoration: BoxDecoration(
@@ -72,11 +68,51 @@ class _MartPageState extends State<diet> {
                         "Nutritients that you should take daily",
                         style: TextStyle(
                             color: Colors.white,
-                            fontSize: 40,
+                            fontSize: 20,
                             fontWeight: FontWeight.bold),
                       ),
                       SizedBox(
                         height: 30,
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 20.0, vertical: 0.0),
+                        child: new TextField(
+                          decoration: new InputDecoration(
+                              labelText: 'Q1. What is your age'),
+                        ),
+                      ),
+                      new SizedBox(
+                        height: 15.0,
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 20.0, vertical: 0.0),
+                        child: new TextField(
+                          decoration: new InputDecoration(
+                              labelText: 'Q1. Do you have heart problems'),
+                        ),
+                      ),
+                      new SizedBox(
+                        height: 15.0,
+                      ),
+                      Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.only(
+                              left: 50.0,
+                              right: 50.0,
+                              top: 20.0,
+                              bottom: 180.0),
+                          child: new Container(
+                              alignment: Alignment.center,
+                              height: 20.0,
+                              decoration: new BoxDecoration(
+                                  color: Color(0xFF18D191),
+                                  borderRadius: new BorderRadius.circular(9.0)),
+                              child: new Text("Submit",
+                                  style: new TextStyle(
+                                      fontSize: 20.0, color: Colors.white))),
+                        ),
                       ),
                       Container(
                         height: 50,
@@ -86,7 +122,7 @@ class _MartPageState extends State<diet> {
                             color: Colors.white),
                         child: Center(
                             child: Text(
-                          "Shop Now",
+                          "List of items you should Add to your diet",
                           style: TextStyle(
                               color: Colors.grey[900],
                               fontWeight: FontWeight.bold),
