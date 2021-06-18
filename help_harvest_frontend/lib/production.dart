@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'image_banner.dart';
 
 class Production extends StatelessWidget {
-  var _options = ['paddy,rice'];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,7 +18,8 @@ class Production extends StatelessWidget {
               padding:
                   const EdgeInsets.symmetric(horizontal: 20.0, vertical: 0.0),
               child: new TextField(
-                decoration: new InputDecoration(labelText: 'Q1. what is your soil'),
+                decoration:
+                    new InputDecoration(labelText: 'Q1. what is your soil'),
               ),
             ),
             new SizedBox(
@@ -29,19 +29,58 @@ class Production extends StatelessWidget {
               padding:
                   const EdgeInsets.symmetric(horizontal: 20.0, vertical: 0.0),
               child: new TextField(
-                decoration: new InputDecoration(labelText: 'Q2. What is the season'),
+                decoration:
+                    new InputDecoration(labelText: 'Q2. What is the season'),
               ),
             ),
             new SizedBox(
               height: 15.0,
             ),
             DropdownButton<String>(
-                items: _options.map((String dropDownStringItem) {
-              return DropdownMenuItem<String>(
-                value: dropDownStringItem,
-                child: Text(dropDownStringItem),
-              );
-            }).toList()),
+              items: <String>['Telangana'].map((String value) {
+                return DropdownMenuItem<String>(
+                  value: value,
+                  child: new Text(value),
+                );
+              }).toList(),
+              onChanged: (_) {},
+            ),
+            DropdownButton<String>(
+              items: <String>['Districts'].map((String value) {
+                return DropdownMenuItem<String>(
+                  value: value,
+                  child: new Text(value),
+                );
+              }).toList(),
+              onChanged: (_) {},
+            ),
+            DropdownButton<String>(
+              items: <String>['Summer', 'Rainy'].map((String value) {
+                return DropdownMenuItem<String>(
+                  value: value,
+                  child: new Text(value),
+                );
+              }).toList(),
+              onChanged: (_) {},
+            ),
+            DropdownButton<String>(
+              items: <String>['Black', 'Red'].map((String value) {
+                return DropdownMenuItem<String>(
+                  value: value,
+                  child: new Text(value),
+                );
+              }).toList(),
+              onChanged: (_) {},
+            ),
+            DropdownButton<String>(
+              items: <String>['Paddy', 'Cotton'].map((String value) {
+                return DropdownMenuItem<String>(
+                  value: value,
+                  child: new Text(value),
+                );
+              }).toList(),
+              onChanged: (_) {},
+            ),
             Expanded(
               child: Padding(
                 padding: const EdgeInsets.only(

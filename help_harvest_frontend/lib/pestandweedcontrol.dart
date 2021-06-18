@@ -36,35 +36,35 @@ class pestandweedcontrol extends StatelessWidget {
             new SizedBox(
               height: 15.0,
             ),
-            new Expanded(
-              child: Padding(
-                padding: const EdgeInsets.only(
-                    left: 50.0, right: 50.0, top: 20.0, bottom: 180.0),
-                child: new Container(
-                    alignment: Alignment.center,
-                    height: 20.0,
-                    decoration: new BoxDecoration(
-                        color: Color(0xFF18D191),
-                        borderRadius: new BorderRadius.circular(9.0)),
-                    child: new Text("Submit Your questions",
-                        style: new TextStyle(
-                            fontSize: 20.0, color: Colors.white))),
-              ),
+            Container(
+              height: 50,
+              margin: EdgeInsets.symmetric(horizontal: 40),
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(5), color: Colors.white),
+              child: Center(
+                  child: Text(
+                "Submit",
+                style: TextStyle(
+                    color: Colors.grey[900], fontWeight: FontWeight.bold),
+              )),
             ),
-            new Expanded(
-              child: Padding(
-                padding: const EdgeInsets.only(
-                    left: 50.0, right: 50.0, top: 20.0, bottom: 180.0),
-                child: new Container(
-                    alignment: Alignment.center,
-                    height: 20.0,
-                    decoration: new BoxDecoration(
-                        color: Color(0xFF18D191),
-                        borderRadius: new BorderRadius.circular(9.0)),
-                    child: new Text("Expert Advice",
-                        style: new TextStyle(
-                            fontSize: 20.0, color: Colors.white))),
-              ),
+            SizedBox(
+              height: 30,
+            ),
+            Container(
+              height: 50,
+              margin: EdgeInsets.symmetric(horizontal: 40),
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(5), color: Colors.white),
+              child: Center(
+                  child: Text(
+                "Expert Advice",
+                style: TextStyle(
+                    color: Colors.grey[900], fontWeight: FontWeight.bold),
+              )),
+            ),
+            SizedBox(
+              height: 30,
             ),
           ]),
     );
