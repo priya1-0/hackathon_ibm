@@ -11,14 +11,13 @@ class mart extends StatefulWidget {
 
 class _MartPageState extends State<mart> {
   final List<String> _listItem = [
-    'images/diet.jpg',
-    'images/diet.jpg',
-    'images/diet.jpg',
-    'images/diet.jpg',
-    'images/diet.jpg',
-    'images/diet.jpg',
-    'images/diet.jpg',
-    'images/diet.jpg',
+    'images/meat.jpg',
+    'images/fruits.jpg',
+    'images/vegetable.jpg',
+    'images/grains.jpg',
+    'images/eggs.jpg',
+    'images/nuts.jpg',
+    'images/spices.jpg',
   ];
 
   @override
@@ -125,10 +124,7 @@ class _MartPageState extends State<mart> {
                                 decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(10),
                                     color: Colors.white),
-                                child: Icon(
-                                  Icons.add_shopping_cart,
-                                  size: 15,
-                                ),
+                                child: Text('open'),
                               ),
                             ),
                           ),

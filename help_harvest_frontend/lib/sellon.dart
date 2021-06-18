@@ -15,7 +15,7 @@ class sellon extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             ImageBanner("images/sellon.jpg"),
-            Text("hiiiiiiiiiiiiiiiii")
+            Text("upload images")
             
           ]),
     );

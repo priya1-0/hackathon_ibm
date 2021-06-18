@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'image_banner.dart';
 
-
 class Production extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -15,8 +14,27 @@ class Production extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             ImageBanner("images/production.jpg"),
-            Text("hiiiiiiiiiiiiiiiii")
-            
+            Text("hiiiiiiiiiiiiiiiii"),
+            Padding(
+              padding:
+                  const EdgeInsets.symmetric(horizontal: 20.0, vertical: 0.0),
+              child: new TextField(
+                decoration: new InputDecoration(labelText: 'Q1.'),
+              ),
+            ),
+            new SizedBox(
+              height: 15.0,
+            ),
+            Padding(
+              padding:
+                  const EdgeInsets.symmetric(horizontal: 20.0, vertical: 0.0),
+              child: new TextField(
+                decoration: new InputDecoration(labelText: 'Q2.'),
+              ),
+            ),
+            new SizedBox(
+              height: 15.0,
+            ),
           ]),
     );
   }

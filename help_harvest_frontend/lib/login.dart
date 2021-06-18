@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:help_harvest_frontend/forgotpassword.dart';
+import 'package:help_harvest_frontend/registrationpage.dart';
 import 'stacked_icons.dart';
 import 'home.dart';
 
@@ -93,12 +95,20 @@ class LoginPage extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.only(
                         left: 10.0, right: 20.0, top: 10.0),
-                    child: new Container(
-                        alignment: Alignment.center,
-                        height: 60.0,
-                        child: new Text("Forgot Password?",
-                            style: new TextStyle(
-                                fontSize: 17.0, color: Color(0xFF18D191)))),
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => ForgotPassword()));
+                      },
+                      child: new Container(
+                          alignment: Alignment.center,
+                          height: 60.0,
+                          child: new Text("Forgot Password?",
+                              style: new TextStyle(
+                                  fontSize: 17.0, color: Color(0xFF18D191)))),
+                    ),
                   ),
                 )
               ],
@@ -109,11 +119,19 @@ class LoginPage extends StatelessWidget {
                 children: <Widget>[
                   Padding(
                     padding: const EdgeInsets.only(bottom: 18.0),
-                    child: new Text("Create A New Account ",
-                        style: new TextStyle(
-                            fontSize: 17.0,
-                            color: Color(0xFF18D191),
-                            fontWeight: FontWeight.bold)),
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => RegistrationPage()));
+                      },
+                      child: new Text("Create A New Account ",
+                          style: new TextStyle(
+                              fontSize: 17.0,
+                              color: Color(0xFF18D191),
+                              fontWeight: FontWeight.bold)),
+                    ),
                   ),
                 ],
               ),
