@@ -6,7 +6,7 @@ class HelpHarvest extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Help Harvest',
+      title: 'KrishiBoost',
       debugShowCheckedModeBanner: false,
       // Set Raleway as the default app font
       theme: ThemeData(
@@ -48,7 +48,7 @@ class MyHomePage extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.only(top: 8.0, bottom: 80.0),
                   child: new Text(
-                    "Help Harvest",
+                    "KrishiBoost",
                     style: new TextStyle(fontSize: 30.0),
                   ),
                 )

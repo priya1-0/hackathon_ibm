@@ -239,7 +239,7 @@ class MainContent extends StatelessWidget {
                                       padding:
                                           const EdgeInsets.only(right: 8.0),
                                     ),
-                                    new Text('Sell on Help Harvest',
+                                    new Text('Sell on KrishiBoost',
                                         style:
                                             new TextStyle(color: Colors.white))
                                   ],
