@@ -29,7 +29,7 @@ class _MartPageState extends State<diet> {
         backgroundColor: Colors.transparent,
         elevation: 0,
         leading: Icon(Icons.menu),
-        title: Text("Mart"),
+        title: Text("Nutritious Diet"),
         actions: <Widget>[
           Padding(
             padding: EdgeInsets.all(10.0),
@@ -69,7 +69,7 @@ class _MartPageState extends State<diet> {
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: <Widget>[
                       Text(
-                        "Sale is live",
+                        "Nutritients that you should take daily",
                         style: TextStyle(
                             color: Colors.white,
                             fontSize: 40,

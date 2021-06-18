@@ -394,7 +394,8 @@ class MainContent extends StatelessWidget {
                             decoration: new BoxDecoration(
                                 borderRadius: new BorderRadius.circular(5.0),
                                 image: new DecorationImage(
-                                    image: new NetworkImage(''),
+                                    image: new NetworkImage(
+                                        ''),
                                     fit: BoxFit.cover)),
                           ),
                           new Text('Blog post 3',

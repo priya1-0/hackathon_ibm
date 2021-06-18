@@ -120,7 +120,7 @@ class _MartPageState extends State<mart> {
                               offset: Offset(80, -75),
                               child: Container(
                                 margin: EdgeInsets.symmetric(
-                                    horizontal: 85, vertical: 80),
+                                    horizontal: 90, vertical: 95),
                                 decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(10),
                                     color: Colors.white),

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'image_banner.dart';
 
-
 class machinery extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -15,8 +14,6 @@ class machinery extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             ImageBanner("images/machinery.jpg"),
-            Text("hiiiiiiiiiiiiiiiii")
-            
           ]),
     );
   }
