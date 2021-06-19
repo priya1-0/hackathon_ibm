@@ -18,7 +18,7 @@ Technology can answer most difficulties farmers face. It can assist them with ha
 
 [Long description](https://github.com/priya1-0/hackathon_ibm/blob/main/help_harvest_frontend/assets/Data/long%20description)
 
-[flow chart]()
+[flow chart](https://github.com/priya1-0/hackathon_ibm/blob/main/help_harvest_frontend/assets/Data/flowchart.png)
 
 
 Project roadmap
