@@ -21,15 +21,6 @@ Technology can answer most difficulties farmers face. It can assist them with ha
 [flow chart](https://github.com/priya1-0/hackathon_ibm/blob/main/help_harvest_frontend/assets/Data/flowchart.png)
 
 
-Project roadmap
-The project currently does the following things.
-
-Feature 1
-Feature 2
-Feature 3
-It's in a free tier IBM Cloud Kubernetes cluster. In the future we plan to run on Red Hat OpenShift, for example.
-
-See below for our proposed schedule on next steps after Call for Code 2021 submission.
 
 Roadmap
 -> Researching about Hunger -15th june 2021
