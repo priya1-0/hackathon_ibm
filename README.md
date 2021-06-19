@@ -14,7 +14,7 @@ Technology can answer most difficulties farmers face. It can assist them with ha
 [Demo video](https://youtu.be/yI9_klmRT2E)
 
 
-[The architecture]()
+[The architecture](https://github.com/priya1-0/hackathon_ibm/tree/main/help_harvest_frontend/Architecture)
 
 [Long description](https://github.com/priya1-0/hackathon_ibm/blob/main/help_harvest_frontend/assets/Data/long%20description)
 
