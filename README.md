@@ -28,6 +28,7 @@ Roadmap
 -> Can be solved using Technology and AI -16th june 2021
 -> frontend development -17th june 2021
 -> frontend development, completing and submitting - 18 june 2021
+-> submitting to call for code - 31 july 2021
 
 
 Built with
